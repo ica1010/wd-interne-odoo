@@ -9,7 +9,6 @@ __pycache__/
 *.pyc
 
 .coverage
-/reports/
 skills-lock.json
 data/skills/
 

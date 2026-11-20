@@ -1,0 +1,15 @@
+Name                                                                  Stmts   Miss Branch BrPart  Cover
+-------------------------------------------------------------------------------------------------------
+/mnt/extra-addons/wd_leave_notice/__init__.py                             1      0      0      0   100%
+/mnt/extra-addons/wd_leave_notice/models/__init__.py                      5      0      0      0   100%
+/mnt/extra-addons/wd_leave_notice/models/hr_employee.py                   6      0      0      0   100%
+/mnt/extra-addons/wd_leave_notice/models/hr_leave.py                    243     10    122     12    94%
+/mnt/extra-addons/wd_leave_notice/models/hr_leave_allocation.py          29      2     16      2    91%
+/mnt/extra-addons/wd_leave_notice/models/hr_leave_type.py                16      0      4      0   100%
+/mnt/extra-addons/wd_leave_notice/models/ir_attachment.py                23      0     12      1    97%
+/mnt/extra-addons/wd_leave_notice/tests/__init__.py                       3      0      0      0   100%
+/mnt/extra-addons/wd_leave_notice/tests/test_hr_leave_edge_cases.py     283      3     16      3    98%
+/mnt/extra-addons/wd_leave_notice/tests/test_hr_leave_notice.py          80      3      6      2    94%
+/mnt/extra-addons/wd_leave_notice/tests/test_hr_leave_rules.py          173      0     10      1    99%
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                   862     18    186     21    96%
