@@ -1,0 +1,8 @@
+﻿Code,Libelle,DecompteSolde,JustificatifObligatoire,Validation,MaxJoursOuvres,Contrats
+CP,Congé payé,Oui,Non,Manager ; Manager + RH si > 10 jours ouvrés,,"CDI, CDD"
+MAL,Congé maladie,Non,Oui (certificat médical),RH,,Tous
+EXC-MAR,Congé exceptionnel – mariage du salarié,Non,Oui,RH,4.0,"CDI, CDD"
+EXC-NAI,Congé exceptionnel – naissance,Non,Oui,RH,3.0,"CDI, CDD"
+EXC-DEC,Congé exceptionnel – décès d'un proche,Non,Oui,RH,3.0,"CDI, CDD"
+SS,Congé sans solde,Non,Non,Manager + RH,,"CDI, CDD"
+AA,Absence autorisée (stagiaires),Non,Non,Manager,2.0,Stage

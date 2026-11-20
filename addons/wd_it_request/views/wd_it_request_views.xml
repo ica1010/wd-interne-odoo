@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="wd_it_request_view_list" model="ir.ui.view">
+        <field name="name">wd.it.request.list</field>
+        <field name="model">wd.it.request</field>
+        <field name="arch" type="xml">
+            <list decoration-danger="is_late"
+                  decoration-muted="state == 'cancel'">
+                <field name="request_ref"/>
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="priority"/>
+                <field name="category"/>
+                <field name="technician_id"/>
+                <field name="request_date"/>
+                <field name="sla_resolution_deadline"/>
+                <field name="state" widget="badge"
+                    decoration-info="state in ('draft', 'assigned')"
+                    decoration-warning="state in ('in_progress', 'pending_user')"
+                    decoration-success="state in ('resolved', 'closed')"
+                    decoration-danger="state == 'cancel'"/>
+                <field name="is_late" column_invisible="1"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="wd_it_request_view_kanban" model="ir.ui.view">
+        <field name="name">wd.it.request.kanban</field>
+        <field name="model">wd.it.request</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="state" class="o_kanban_small_column">
+                <field name="request_ref"/>
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="priority"/>
+                <field name="technician_id"/>
+                <field name="is_late"/>
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_content">
+                            <strong><field name="request_ref"/></strong>
+                            <div><field name="name"/></div>
+                            <div class="text-muted">
+                                <field name="employee_id"/> —
+                                <field name="priority"/>
+                            </div>
+                            <field name="is_late" widget="boolean_toggle"
+                                invisible="1"/>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="wd_it_request_view_form" model="ir.ui.view">
+        <field name="name">wd.it.request.form</field>
+        <field name="model">wd.it.request</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_assign" type="object"
+                        string="Assigner" class="btn-primary"
+                        invisible="state != 'draft'"/>
+                    <button name="action_start" type="object"
+                        string="Prendre en charge"
+                        invisible="state != 'assigned'"/>
+                    <button name="action_wait_user" type="object"
+                        string="Attente utilisateur"
+                        invisible="state != 'in_progress'"/>
+                    <button name="action_resume" type="object"
+                        string="Reprendre"
+                        invisible="state != 'pending_user'"/>
+                    <button name="action_resolve" type="object"
+                        string="Résoudre" class="btn-primary"
+                        invisible="state not in ('in_progress', 'pending_user')"/>
+                    <button name="action_close" type="object"
+                        string="Clôturer"
+                        invisible="state != 'resolved'"/>
+                    <button name="action_reopen" type="object"
+                        string="Rouvrir"
+                        invisible="state not in ('resolved', 'closed')"/>
+                    <button name="action_cancel" type="object"
+                        string="Annuler"
+                        invisible="state in ('closed', 'cancel')"/>
+                    <button name="action_handover" type="object"
+                        string="Enregistrer la remise"
+                        invisible="state in ('draft', 'cancel', 'closed') or handover_date"/>
+                    <button name="%(wd_it_request.action_report_wd_it_handover)d"
+                        type="action" string="Bon de remise"
+                        invisible="not line_ids"/>
+                    <field name="state" widget="statusbar"
+                        statusbar_visible="draft,assigned,in_progress,pending_user,resolved,closed"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="Objet de la demande"/></h1>
+                    </div>
+                    <group>
+                        <group string="Identification">
+                            <field name="request_ref"/>
+                            <field name="requester_id"/>
+                            <field name="employee_id"/>
+                            <field name="arrival_id"/>
+                            <field name="department_id"/>
+                        </group>
+                        <group string="Traitement">
+                            <field name="category"/>
+                            <field name="priority"/>
+                            <field name="channel"/>
+                            <field name="technician_id"/>
+                            <field name="equipment_id"/>
+                            <field name="request_date"/>
+                            <field name="handover_date"/>
+                            <field name="handover_by"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description" name="description">
+                            <field name="description" placeholder="Décrire la demande…"/>
+                        </page>
+                        <page string="Suivi SLA" name="sla">
+                            <group>
+                                <group string="Échéances (R12)">
+                                    <field name="sla_response_deadline"/>
+                                    <field name="date_first_response"/>
+                                    <field name="sla_resolution_deadline"/>
+                                    <field name="date_resolved"/>
+                                    <field name="is_late"/>
+                                </group>
+                                <group string="Attente et délai net (R13)">
+                                    <field name="date_assigned"/>
+                                    <field name="pending_since"/>
+                                    <field name="waiting_hours"/>
+                                    <field name="net_resolution_hours"/>
+                                    <field name="reopen_count"/>
+                                </group>
+                                <group string="SLA heures ouvrées">
+                                    <field name="sla_response_deadline_open"/>
+                                    <field name="sla_resolution_deadline_open"/>
+                                    <field name="is_late_open"/>
+                                </group>
+                            </group>
+                            <group string="Résolution (R14)">
+                                <field name="resolution_note"
+                                    placeholder="Note de résolution — obligatoire pour résoudre"/>
+                            </group>
+                        </page>
+                        <page string="Matériel" name="equipment">
+                            <field name="line_ids">
+                                <list editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="needed_label"/>
+                                    <field name="equipment_id"/>
+                                    <field name="equipment_name"/>
+                                    <field name="equipment_category"/>
+                                    <field name="status"/>
+                                    <field name="note"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Notes" name="notes">
+                            <field name="note"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="wd_it_request_view_search" model="ir.ui.view">
+        <field name="name">wd.it.request.search</field>
+        <field name="model">wd.it.request</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="request_ref"/>
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="technician_id"/>
+                <field name="equipment_id"/>
+                <filter name="filter_my_requests" string="Mes demandes"
+                    domain="[('employee_id.user_id', '=', uid)]"/>
+                <filter name="filter_late" string="En retard"
+                    domain="[('is_late', '=', True)]"/>
+                <filter name="filter_unassigned" string="Non assignées"
+                    domain="[('technician_id', '=', False),
+                             ('state', 'not in', ('resolved', 'closed', 'cancel'))]"/>
+                <filter name="filter_open" string="En cours"
+                    domain="[('state', 'in', ('draft', 'assigned', 'in_progress', 'pending_user'))]"/>
+                <filter name="filter_resolved" string="Résolues"
+                    domain="[('state', 'in', ('resolved', 'closed'))]"/>
+                <filter name="filter_cancelled" string="Annulées"
+                    domain="[('state', '=', 'cancel')]"/>
+                <separator/>
+                <filter name="group_category" string="Catégorie"
+                    context="{'group_by': 'category'}"/>
+                <filter name="group_technician" string="Technicien"
+                    context="{'group_by': 'technician_id'}"/>
+                <filter name="group_priority" string="Priorité"
+                    context="{'group_by': 'priority'}"/>
+                <filter name="group_state" string="État"
+                    context="{'group_by': 'state'}"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="wd_it_request_view_pivot" model="ir.ui.view">
+        <field name="name">wd.it.request.pivot</field>
+        <field name="model">wd.it.request</field>
+        <field name="arch" type="xml">
+            <pivot>
+                <field name="priority" type="row"/>
+                <field name="state" type="col"/>
+                <field name="waiting_hours" type="measure"/>
+                <field name="net_resolution_hours" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <record id="wd_it_request_view_graph" model="ir.ui.view">
+        <field name="name">wd.it.request.graph</field>
+        <field name="model">wd.it.request</field>
+        <field name="arch" type="xml">
+            <graph type="bar" stacked="True">
+                <field name="priority"/>
+                <field name="state"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id="wd_it_request_action" model="ir.actions.act_window">
+        <field name="name">Demandes IT</field>
+        <field name="res_model">wd.it.request</field>
+        <field name="view_mode">kanban,list,form,pivot,graph</field>
+        <field name="search_view_id"
+            ref="wd_it_request_view_search"/>
+        <field name="context">{'search_default_open': 1}</field>
+    </record>
+
+    <menuitem id="wd_it_request_menu"
+        name="Demandes IT" action="wd_it_request_action"
+        sequence="45"/>
+
+</odoo>

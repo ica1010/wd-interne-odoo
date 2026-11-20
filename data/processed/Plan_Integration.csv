@@ -1,0 +1,13 @@
+﻿TacheID,Tache,Responsable,Echeance,ApplicationOdoo,TypeActivite,Assignation,Intervalle,Unite,Declencher
+PI01,Préparer et faire signer le contrat,RH,J-10,Employés,À faire (To-Do),Utilisateur par défaut,10,jours,Avant la date du plan
+PI02,Créer la fiche employé dans Odoo,RH,J-10,Employés,À faire (To-Do),Utilisateur par défaut,10,jours,Avant la date du plan
+PI03,Créer la demande IT « Équipement nouvel arrivant »,Manager,J-7,Demandes IT (module wd_it_request),À faire (To-Do),Utilisateur par défaut,7,jours,Avant la date du plan
+PI04,Affecter le matériel selon le profil du poste,IT,J-3,Maintenance / Équipements,À faire (To-Do),Utilisateur par défaut,3,jours,Avant la date du plan
+PI05,Créer l'adresse email professionnelle,IT,J-2,Hors Odoo (messagerie),À faire (To-Do),Utilisateur par défaut,2,jours,Avant la date du plan
+PI06,Créer l'utilisateur Odoo et ses droits,IT,J-2,Paramètres / Utilisateurs,À faire (To-Do),Utilisateur par défaut,2,jours,Avant la date du plan
+PI07,"Accueil, visite et présentation de l'équipe",Manager,J1,Employés,À faire (To-Do),Utilisateur par défaut,1,jours,Après la date du plan
+PI08,Remise du matériel contre signature,IT,J1,Maintenance / Demandes IT,À faire (To-Do),Utilisateur par défaut,1,jours,Après la date du plan
+PI09,Lire et accepter la charte informatique,Employé,J2,Employés,À faire (To-Do),Employé,2,jours,Après la date du plan
+PI10,Point d'étape fin de 1re semaine,Manager,J5,Employés,À faire (To-Do),Utilisateur par défaut,5,jours,Après la date du plan
+PI11,Bilan de période d'essai,Manager,J60,Employés,À faire (To-Do),Utilisateur par défaut,60,jours,Après la date du plan
+PI11,Bilan de période d'essai,RH,J60,Employés,À faire (To-Do),Utilisateur par défaut,60,jours,Après la date du plan

@@ -1,0 +1,86 @@
+﻿AssetID,Categorie,ProfilPortable,Marque,Modele,Nom,NumSerie,DateAchat,PrixAchat_FCFA,Statut,AffecteA,FinGarantie,Site
+WD-0001,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,PZL335ZP,2023-11-16,650000,Affecté,E001,2026-11-16,Lomé
+WD-0002,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,6FPNHFYL,2025-09-20,650000,Affecté,E002,2028-09-20,Lomé
+WD-0003,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,3N3BKTUZ,2023-04-21,1350000,Affecté,E003,2026-04-21,Lomé
+WD-0004,Écran,,Dell,"P2423 24""","Dell P2423 24""",1A695TY7,2023-04-21,145000,Affecté,E003,2026-04-21,Lomé
+WD-0005,Ordinateur portable,Standard,HP,ProBook 440 G7 i5/8Go,HP ProBook 440 G7 i5/8Go,QY50DWSF,2020-08-15,650000,Affecté,E004,2023-08-15,Lomé
+WD-0006,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,55Y99GTU,2022-03-18,85000,Affecté,E004,2025-03-18,Lomé
+WD-0007,Ordinateur portable,Standard,HP,ProBook 440 G7 i5/8Go,HP ProBook 440 G7 i5/8Go,E94G056B,2020-06-15,650000,Affecté,E005,2023-06-15,Lomé
+WD-0009,Ordinateur portable,Standard,HP,ProBook 440 G7 i5/8Go,HP ProBook 440 G7 i5/8Go,E9HXKV6R,2020-08-15,650000,Affecté,E006,2023-08-15,Lomé
+WD-0010,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,1R8W2C7R,2025-12-08,1350000,Affecté,E007,2028-12-08,Cotonou
+WD-0011,Écran,,Dell,"P2423 24""","Dell P2423 24""",M4NH6069,2025-12-08,145000,Affecté,E007,2028-12-08,Lomé
+WD-0012,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,C95JUR9W,2025-04-13,1350000,Affecté,E008,2028-04-13,Lomé
+WD-0013,Écran,,Dell,"P2423 24""","Dell P2423 24""",T3BY9L9H,2025-04-13,145000,Affecté,E008,2028-04-13,Lomé
+WD-0014,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,L51HG21A,2023-10-03,1350000,Affecté,E009,2026-10-03,Lomé
+WD-0015,Écran,,Dell,"P2423 24""","Dell P2423 24""",RNDSL9TZ,2023-10-03,145000,Affecté,E009,2026-10-03,Lomé
+WD-0016,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,PH4CY58C,2024-03-02,1350000,Affecté,E010,2027-03-02,Lomé
+WD-0017,Écran,,Dell,"P2423 24""","Dell P2423 24""",N6DUFLET,2024-03-02,145000,Affecté,E010,2027-03-02,Lomé
+WD-0018,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,C6SEL9R7,2022-05-20,1350000,Affecté,E011,2025-05-20,Cotonou
+WD-0019,Écran,,Dell,"P2423 24""","Dell P2423 24""",DYQ15FRC,2022-05-20,145000,Affecté,E011,2025-05-20,Lomé
+WD-0020,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,F4MLRLN8,2025-07-18,1350000,Affecté,E012,2028-07-18,Cotonou
+WD-0021,Écran,,Dell,"P2423 24""","Dell P2423 24""",X1TL5FBY,2025-07-18,145000,Affecté,E012,2028-07-18,Lomé
+WD-0022,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,9R6KWM7H,2023-10-28,1350000,Affecté,E013,2026-10-28,Lomé
+WD-0023,Écran,,Dell,"P2423 24""","Dell P2423 24""",JA0F72X8,2023-10-28,145000,Affecté,E013,2026-10-28,Lomé
+WD-0024,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,BSRH0RVM,2022-12-22,1350000,Affecté,E014,2025-12-22,Lomé
+WD-0025,Écran,,Dell,"P2423 24""","Dell P2423 24""",VABXM5GR,2022-12-22,145000,Affecté,E014,2025-12-22,Lomé
+WD-0026,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,6HEJA9VK,2023-10-17,1350000,Affecté,E015,2026-10-17,Lomé
+WD-0027,Écran,,Dell,"P2423 24""","Dell P2423 24""",2SB4UK0A,2023-10-17,145000,Affecté,E015,2026-10-17,Lomé
+WD-0028,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,QW4E0T44,2026-02-04,1350000,Affecté,E016,2029-02-04,Lomé
+WD-0029,Écran,,Dell,"P2423 24""","Dell P2423 24""",VS426UWL,2026-02-04,145000,Affecté,E016,2029-02-04,Lomé
+WD-0030,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,PPU1QWLG,2026-09-01,1350000,Affecté,E017,2029-09-01,Lomé
+WD-0031,Écran,,Dell,"P2423 24""","Dell P2423 24""",Q0JX1PV0,2026-09-01,145000,Affecté,E017,2029-09-01,Lomé
+WD-0032,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,M8VCNVL3,2024-08-08,1350000,Affecté,E018,2027-08-08,Lomé
+WD-0033,Écran,,Dell,"P2423 24""","Dell P2423 24""",J407DVC8,2024-08-08,145000,Affecté,E018,2027-08-08,Lomé
+WD-0034,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,2Q8U8YY0,2026-05-27,1350000,Affecté,E019,2029-05-27,Lomé
+WD-0035,Écran,,Dell,"P2423 24""","Dell P2423 24""",9QA2930Z,2026-05-27,145000,Affecté,E019,2029-05-27,Lomé
+WD-0036,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,YBGRPM71,2026-10-13,1350000,Affecté,E020,2029-10-13,Lomé
+WD-0037,Écran,,Dell,"P2423 24""","Dell P2423 24""",6L38NZBF,2026-10-13,145000,Affecté,E020,2029-10-13,Lomé
+WD-0038,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,H5Y9G2RW,2022-04-13,650000,Affecté,E021,2025-04-13,Lomé
+WD-0039,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,VAGEXK52,2022-04-13,85000,Affecté,,2025-04-13,Lomé
+WD-0040,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,7XMHFYRK,2022-04-28,650000,Affecté,E022,2025-04-28,Lomé
+WD-0041,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,45G3JFB5,2022-04-28,85000,Affecté,E022,2025-04-28,Lomé
+WD-0042,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,D46YGD2M,2022-08-16,650000,Affecté,E023,2025-08-16,Lomé
+WD-0043,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,3ES9R3GY,2022-08-16,85000,Affecté,E023,2025-08-16,Lomé
+WD-0044,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,VS3GQZE2,2022-03-20,650000,Affecté,E024,2025-03-20,Lomé
+WD-0045,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,FSW3VQ9M,2022-03-20,85000,Affecté,E024,2025-03-20,Lomé
+WD-0046,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,S95U2SP4,2024-01-18,650000,Affecté,E025,2027-01-18,Lomé
+WD-0047,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,LY9VSVHR,2024-01-18,85000,Affecté,E025,2027-01-18,Lomé
+WD-0048,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,XWHX1350,2023-10-20,650000,Affecté,E026,2026-10-20,Lomé
+WD-0049,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,GZ34W0YA,2023-10-20,85000,Affecté,E026,2026-10-20,Lomé
+WD-0050,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,S6AZ25CB,2025-12-12,650000,Affecté,E027,2028-12-12,Lomé
+WD-0051,Téléphone,,Samsung,Galaxy A55,Samsung Galaxy A55,UDHX3S0V,2025-12-12,260000,Affecté,E027,2028-12-12,Lomé
+WD-0052,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,DEQMDZ5G,2022-04-07,650000,Affecté,E028,2025-04-07,Lomé
+WD-0053,Téléphone,,Samsung,Galaxy A55,Samsung Galaxy A55,9DUJG2QH,2022-04-07,260000,Affecté,E028,2025-04-07,Lomé
+WD-0054,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,0CJ4BU2Z,2022-02-19,650000,Affecté,E029,2025-02-19,Lomé
+WD-0055,Téléphone,,Samsung,Galaxy A55,Samsung Galaxy A55,4ND2VKTL,2022-02-19,260000,Affecté,E029,2025-02-19,Lomé
+WD-0056,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,264KAUGJ,2022-02-15,650000,Affecté,E030,2025-02-15,Lomé
+WD-0057,Téléphone,,Samsung,Galaxy A55,Samsung Galaxy A55,3NT59KPW,2022-02-15,260000,Affecté,E030,2025-02-15,Lomé
+WD-0058,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,N50EZ1EA,2024-01-04,650000,Affecté,E031,2027-01-04,Lomé
+WD-0059,Téléphone,,Samsung,Galaxy A55,Samsung Galaxy A55,ZFTQNXSF,2024-01-04,260000,Affecté,E031,2027-01-04,Lomé
+WD-0060,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,EQ5YJLKN,2026-09-04,650000,Affecté,E032,2029-09-04,Lomé
+WD-0061,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,6ZNNMZ6E,2022-07-09,650000,Affecté,E033,2025-07-09,Cotonou
+WD-0062,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,DYQT6CVK,2026-05-26,650000,Affecté,E034,2029-05-26,Lomé
+WD-0063,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,GPVHS2E6,2025-07-26,650000,Affecté,E035,2028-07-26,Lomé
+WD-0064,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,DEU3FNNA,2024-05-05,650000,Affecté,E036,2027-05-05,Lomé
+WD-0065,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,WGS792XQ,2024-04-01,650000,Affecté,E037,2027-04-01,Lomé
+WD-0066,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,773DXZNS,2024-11-19,650000,Affecté,E038,2027-11-19,Lomé
+WD-0067,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,FB35DC6K,2025-09-28,650000,Affecté,E039,2028-09-28,Cotonou
+WD-0068,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,61HYHSHR,2025-09-28,85000,Affecté,E039,2028-09-28,Lomé
+WD-0069,Ordinateur portable,Standard,Lenovo,ThinkPad E14 i5/16Go,Lenovo ThinkPad E14 i5/16Go,TP5AHC96,2023-11-07,650000,Affecté,E040,2026-11-07,Lomé
+WD-0070,Téléphone,,Samsung,Galaxy A55,Samsung Galaxy A55,YM1JNVMV,2023-11-07,260000,Affecté,E040,2026-11-07,Lomé
+WD-0071,Ordinateur portable,Dev,Dell,Latitude 5550 i7/32Go,Dell Latitude 5550 i7/32Go,33NF10ZP,2026-09-10,1350000,En stock,,2029-09-10,Lomé
+WD-0072,Ordinateur portable,Dev,Lenovo,ThinkPad T14 Gen 5 i7/32Go,Lenovo ThinkPad T14 Gen 5 i7/32Go,7SWRXFNT,2026-09-10,1380000,En stock,,2029-09-10,Lomé
+WD-0073,Ordinateur portable,Dev,Dell,Latitude 5540 i7/16Go,Dell Latitude 5540 i7/16Go,MF5MQQV2,2024-02-05,1290000,En réparation,,2027-02-05,Lomé
+WD-0074,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,55CTUFCT,2026-08-20,650000,En stock,,2029-08-20,Lomé
+WD-0075,Ordinateur portable,Standard,HP,ProBook 450 G10 i5/16Go,HP ProBook 450 G10 i5/16Go,5XE0983W,2026-08-20,650000,En stock,,2029-08-20,Lomé
+WD-0077,Écran,,Dell,"P2423 24""","Dell P2423 24""",RWWQSTAU,2026-08-20,145000,En stock,,2029-08-20,Lomé
+WD-0078,Écran,,Dell,"P2423 24""","Dell P2423 24""",LT6T59EJ,2026-08-20,145000,En stock,,2029-08-20,Lomé
+WD-0079,Écran,,Dell,"P2423 24""","Dell P2423 24""",TT1AM1FZ,2026-08-20,145000,En stock,,2029-08-20,Lomé
+WD-0080,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,1AAEDBCW,2026-08-20,85000,En stock,E026,2029-08-20,Lomé
+WD-0081,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,JBB7DBG4,2026-08-20,85000,En stock,,2029-08-20,Lomé
+WD-0082,Casque,,Jabra,Evolve2 40,Jabra Evolve2 40,DNK7NQCZ,2026-08-20,85000,En stock,,2029-08-20,Lomé
+WD-0083,Imprimante,,Brother,MFC-L8900CDW,Brother MFC-L8900CDW,4CNCV986,2023-05-03,720000,Affecté,,2026-05-03,Lomé
+WD-0084,Imprimante,,Epson,EcoTank L6270,Epson EcoTank L6270,49G21EGV,2024-01-09,310000,Affecté,,2027-01-09,Cotonou
+WD-0085,Réseau,,MikroTik,hAP ax3,MikroTik hAP ax3,1RYFFAMB,2024-03-01,95000,Affecté,,2027-03-01,Lomé
+WD-0086,Réseau,,MikroTik,hAP ax3,MikroTik hAP ax3,R8RCDVAP,2024-03-01,95000,Affecté,,2027-03-01,Lomé
+WD-0087,Réseau,,MikroTik,hAP ax3,MikroTik hAP ax3,AAVL0N4F,2024-03-01,95000,Affecté,,2027-03-01,Cotonou

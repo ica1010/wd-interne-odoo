@@ -1,0 +1,25 @@
+# --- Environnement / outillage (non livrable) ---
+.env/
+.agents/
+.claude/
+.devin/
+.vscode/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+.coverage
+/reports/
+skills-lock.json
+data/skills/
+
+# --- Documents de travail (livrés en PDF, hors dépôt) ---
+docs/
+enonce_extract.txt
+resources/
+
+# --- Caches et fichiers intermédiaires ---
+data/raw/holidays_cache/
+data/reports/*.log
+data/reports/*_inspection.csv
+data/reports/rapport_controle_jours_feries.xlsx

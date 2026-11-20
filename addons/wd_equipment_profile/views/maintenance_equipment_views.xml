@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="maintenance_equipment_view_form_profile" model="ir.ui.view">
+        <field name="name">maintenance.equipment.form.profile</field>
+        <field name="model">maintenance.equipment</field>
+        <field name="inherit_id" ref="maintenance.hr_equipment_view_form"/>
+        <field name="arch" type="xml">
+            <field name="category_id" position="after">
+                <field name="wd_material_profile"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="maintenance_equipment_view_tree_profile" model="ir.ui.view">
+        <field name="name">maintenance.equipment.list.profile</field>
+        <field name="model">maintenance.equipment</field>
+        <field name="inherit_id" ref="maintenance.hr_equipment_view_tree"/>
+        <field name="arch" type="xml">
+            <field name="category_id" position="after">
+                <field name="wd_material_profile"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="maintenance_equipment_view_search_profile" model="ir.ui.view">
+        <field name="name">maintenance.equipment.search.profile</field>
+        <field name="model">maintenance.equipment</field>
+        <field name="inherit_id" ref="maintenance.hr_equipment_view_search"/>
+        <field name="arch" type="xml">
+            <field name="category_id" position="after">
+                <field name="wd_material_profile"/>
+            </field>
+            <filter name="category" position="after">
+                <filter string="Profil matériel" name="group_profile"
+                    domain="[]" context="{'group_by': 'wd_material_profile'}"/>
+            </filter>
+        </field>
+    </record>
+
+</odoo>

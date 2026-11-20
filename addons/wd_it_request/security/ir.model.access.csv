@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_wd_it_request_user,wd.it.request user,model_wd_it_request,base.group_user,1,1,1,0
+access_wd_it_request_technician,wd.it.request technician,model_wd_it_request,wd_it_request.group_it_technician,1,1,1,0
+access_wd_it_request_manager,wd.it.request manager,model_wd_it_request,wd_it_request.group_it_manager,1,1,1,1
+access_wd_it_request_system,wd.it.request system,model_wd_it_request,base.group_system,1,1,1,1
+access_wd_it_request_line_user,wd.it.request.line user,model_wd_it_request_line,base.group_user,1,1,1,0
+access_wd_it_request_line_technician,wd.it.request.line technician,model_wd_it_request_line,wd_it_request.group_it_technician,1,1,1,0
+access_wd_it_request_line_manager,wd.it.request.line manager,model_wd_it_request_line,wd_it_request.group_it_manager,1,1,1,1
+access_wd_it_request_line_system,wd.it.request.line system,model_wd_it_request_line,base.group_system,1,1,1,1
+access_wd_it_offboarding_manager,wd.it.offboarding.wizard manager,model_wd_it_offboarding_wizard,wd_it_request.group_it_manager,1,1,1,1
+access_wd_it_offboarding_hr,wd.it.offboarding.wizard hr,model_wd_it_offboarding_wizard,hr.group_hr_user,1,1,1,0
+access_wd_it_offboarding_system,wd.it.offboarding.wizard system,model_wd_it_offboarding_wizard,base.group_system,1,1,1,1

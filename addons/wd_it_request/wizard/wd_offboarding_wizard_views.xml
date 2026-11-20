@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="wd_it_offboarding_wizard_form" model="ir.ui.view">
+        <field name="name">wd.it.offboarding.wizard.form</field>
+        <field name="model">wd.it.offboarding.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Départ collaborateur">
+                <group>
+                    <field name="employee_id"/>
+                </group>
+                <group string="Actions à effectuer">
+                    <field name="archive_employee"/>
+                    <field name="disable_user"/>
+                    <field name="return_material"/>
+                </group>
+                <footer>
+                    <button name="action_validate" type="object"
+                            string="Valider le départ"
+                            class="btn-primary"/>
+                    <button string="Annuler" class="btn-secondary"
+                            special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_wd_offboarding_wizard" model="ir.actions.act_window">
+        <field name="name">Départ collaborateur</field>
+        <field name="res_model">wd.it.offboarding.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <!-- Bouton sur la fiche employé -->
+    <record id="hr_employee_form_offboarding" model="ir.ui.view">
+        <field name="name">hr.employee.form.offboarding</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="%(wd_it_request.action_wd_offboarding_wizard)d"
+                        type="action"
+                        string="Départ collaborateur"
+                        class="btn-secondary"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

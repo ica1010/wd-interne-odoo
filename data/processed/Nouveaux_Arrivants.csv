@@ -1,0 +1,7 @@
+﻿RecrueID,Nom,Prenom,Poste,DepartementID,ManagerID,Site,TypeContrat,DateEntree,EmailPerso,Telephone,BesoinsSpecifiques
+N01,AKAKPO,Elikem,Développeur Odoo,D02,E002,Lomé,CDI,2026-12-01,elikem.akakpo@gmail.com,+228 91 22 47 80,Double écran demandé
+N02,HOUNSOU,Bénédicte,Data & BI Specialist,D03,E003,Lomé,CDI,2026-12-07,b.hounsou@yahoo.fr,+228 98 10 33 21,Licence Power BI Pro
+N03,ZINSOU,Marius,Technicien Support IT,D04,E004,Cotonou,CDD,2026-11-23,marius.zinsou@gmail.com,+229 01 96 41 08 52,Casque + accès aux 12 instances clients
+N04,AMEDOME,Josiane,Account Manager,D05,E005,Lomé,CDI,2027-01-04,josiane.amedome@gmail.com,+228 90 75 18 64,Téléphone professionnel
+N05,KOUGBLENOU,Serge,Consultant Odoo,D02,E002,Cotonou,CDI,2027-01-04,serge.kougblenou@gmail,+229 01 97 52 63 74,
+N06,ADZOVI,Laetitia,Stagiaire Data Analyst,D03,E003,Lomé,Stage,2027-01-11,laetitia.adzovi@gmail.com,+228 93 44 55 66,Fin de stage 30/06/2027

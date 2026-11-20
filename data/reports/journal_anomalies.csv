@@ -1,0 +1,64 @@
+﻿Feuille,Ligne_Excel,Identifiant,Colonne,Valeur,Anomalie,Gravite,Decision,Justification
+Demandes_Absence,26,ABS-0069,DateFin,2026-12-08,FIN_AVANT_DEBUT,AVERTISSEMENT,Conservé tel quel,Date de fin antérieure au début : à vérifier dans Odoo.
+Demandes_Absence,38,ABS-0063,TypeConge,CP,STAGIAIRE_CP_INTERDIT,ERREUR,Exclu du dataset Demandes_Absence_Import,Congé payé exclu : l'employé est stagiaire (R6). À requalifier en AA si justifié.
+Demandes_Absence,64,E013,ValidateurRH,,VALIDATION_RH_MANQUANTE,AVERTISSEMENT,En attente de validation RH,Un congé payé de plus de 10 jours doit être validé par les RH.
+Demandes_Absence,8,E020,Justificatif,Non,JUSTIFICATIF_MANQUANT,AVERTISSEMENT,À régulariser auprès des RH,Un congé maladie validé doit comporter un justificatif.
+Demandes_IT_Historique,68,IT-2026-0066,DatePremiereReponse,2026-02-20 13:30:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,89,IT-2026-0087,DatePremiereReponse,2026-03-06 18:40:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,111,IT-2026-0109,DateResolution,2026-03-20 09:33:00,RESOLUTION_AVANT_CREATION,AVERTISSEMENT,Conservé tel quel,Date de résolution antérieure à la création.
+Demandes_IT_Historique,111,IT-2026-0109,DatePremiereReponse,2026-03-20 16:30:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,112,IT-2026-0110,DateResolution,2026-03-23 07:29:00,RESOLUTION_AVANT_CREATION,AVERTISSEMENT,Conservé tel quel,Date de résolution antérieure à la création.
+Demandes_IT_Historique,112,IT-2026-0110,DatePremiereReponse,2026-03-24 00:35:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,113,IT-2026-0111,DateResolution,2026-03-24 15:57:00,RESOLUTION_AVANT_CREATION,AVERTISSEMENT,Conservé tel quel,Date de résolution antérieure à la création.
+Demandes_IT_Historique,113,IT-2026-0111,DatePremiereReponse,2026-03-25 00:32:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,142,IT-2026-0140,DatePremiereReponse,2026-04-21 17:15:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,172,IT-2026-0170,DatePremiereReponse,2026-05-07 19:59:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,175,IT-2026-0173,DatePremiereReponse,2026-05-08 13:05:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,229,IT-2026-0225,DatePremiereReponse,2026-06-12 14:51:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,396,IT-2026-0390,DatePremiereReponse,2026-10-09 11:51:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,416,IT-2026-0410,DatePremiereReponse,2026-10-22 12:34:00,REPONSE_APRES_RESOLUTION,AVERTISSEMENT,Conservé tel quel,Première réponse postérieure à la résolution.
+Demandes_IT_Historique,"176, 177",IT-2026-0174,"DemandeID, DateCreation, DemandeurID, Categorie, Objet, Priorite, Canal, TechnicienID, Statut, DatePremiereReponse, DateResolution, HeuresAttenteUtilisateur, Reouverte",2 occurrences,Doublon,AVERTISSEMENT,Un exemplaire conservé dans le CSV préparé,Même valeur détectée plusieurs fois sur les colonnes de contrôle.
+Demandes_IT_Historique,"199, 200",IT-2026-0196,"DemandeID, DateCreation, DemandeurID, Categorie, Objet, Priorite, Canal, TechnicienID, Statut, DatePremiereReponse, DateResolution, HeuresAttenteUtilisateur, Reouverte",2 occurrences,Doublon,AVERTISSEMENT,Un exemplaire conservé dans le CSV préparé,Même valeur détectée plusieurs fois sur les colonnes de contrôle.
+Demandes_IT_Historique,243,IT-2026-0239,DatePremiereReponse,,DATE_MANQUANTE_TICKET_CLOTURE,AVERTISSEMENT,En attente de vérification du support,Un ticket clôturé doit avoir cette date renseignée.
+Demandes_IT_Historique,245,IT-2026-0241,DatePremiereReponse,,DATE_MANQUANTE_TICKET_CLOTURE,AVERTISSEMENT,En attente de vérification du support,Un ticket clôturé doit avoir cette date renseignée.
+Demandes_IT_Historique,247,IT-2026-0243,DatePremiereReponse,,DATE_MANQUANTE_TICKET_CLOTURE,AVERTISSEMENT,En attente de vérification du support,Un ticket clôturé doit avoir cette date renseignée.
+Demandes_IT_Historique,"249, 250",IT-2026-0245,"DemandeID, DateCreation, DemandeurID, Categorie, Objet, Priorite, Canal, TechnicienID, Statut, DatePremiereReponse, DateResolution, HeuresAttenteUtilisateur, Reouverte",2 occurrences,Doublon,AVERTISSEMENT,Un exemplaire conservé dans le CSV préparé,Même valeur détectée plusieurs fois sur les colonnes de contrôle.
+Demandes_IT_Historique,251,IT-2026-0246,DatePremiereReponse,,DATE_MANQUANTE_TICKET_CLOTURE,AVERTISSEMENT,En attente de vérification du support,Un ticket clôturé doit avoir cette date renseignée.
+Demandes_IT_Historique,"271, 272",IT-2026-0266,"DemandeID, DateCreation, DemandeurID, Categorie, Objet, Priorite, Canal, TechnicienID, Statut, DatePremiereReponse, DateResolution, HeuresAttenteUtilisateur, Reouverte",2 occurrences,Doublon,AVERTISSEMENT,Un exemplaire conservé dans le CSV préparé,Même valeur détectée plusieurs fois sur les colonnes de contrôle.
+Demandes_IT_Historique,"61, 62",IT-2026-0060,"DemandeID, DateCreation, DemandeurID, Categorie, Objet, Priorite, Canal, TechnicienID, Statut, DatePremiereReponse, DateResolution, HeuresAttenteUtilisateur, Reouverte",2 occurrences,Doublon,AVERTISSEMENT,Un exemplaire conservé dans le CSV préparé,Même valeur détectée plusieurs fois sur les colonnes de contrôle.
+Employes,13,E012,DateEntree,11/06/2024,DATE_TEXTE_AMBIGUE,INFORMATION,Interprété jj/mm/aaaa,Date stockée en texte ; format jj/mm/aaaa supposé (convention française).
+Employes,14,E013,Poste,,Poste sans correspondance,AVERTISSEMENT,En attente de confirmation RH,Aucun PosteID trouvé pour l'intitulé : Developpeur Odoo. Aucune correspondance inventée.
+Employes,24,E023,ManagerID,,RÉFÉRENCE_SANS_CORRESPONDANCE,AVERTISSEMENT,En attente de confirmation RH,La valeur E099 ne correspond à aucun enregistrement existant.
+Employes,27,E041,EmployeeID,E041,DOUBLON_EXCLU,ERREUR,Exclu du CSV d'import,"Même Prénom, Nom et date d'entrée qu'un autre employé : identifiant présumé inexistant (erreur de saisie)."
+Employes,27,E041,EmployeeID,E041,DOUBLON_EXCLU_IMPORT,ERREUR,Exclu du dataset contrats,Même nom et même date d'entrée qu'un autre employé : l'identifiant est présumé inexistant (erreur de saisie).
+Employes,29,E027,DateEntree,04/02/2024,DATE_TEXTE_AMBIGUE,INFORMATION,Interprété jj/mm/aaaa,Date stockée en texte ; format jj/mm/aaaa supposé (convention française).
+Employes,41,E039,DateFinContrat,,FIN_CONTRAT_DEDUITE_SORTIE,INFORMATION,End Date = DateSortie (confirmé),Employé sorti sans DateFinContrat : la date de sortie est retenue comme fin de contrat (confirmé : DateSortie fait office de fin).
+Employes,12,E011,Telephone,+229 01 81 86 68 76,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +229 01 81 86 68 76
+Employes,13,E012,Telephone,+229 01 89 73 65 81,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +229 01 89 73 65 81
+Employes,17,E016,Telephone,+228 95 29 10 50,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 95 29 10 50
+Employes,"18, 27",E017 / E041,EmailPro,esse.ayivi@westdigital.tg,COORDONNEE_PARTAGEE,AVERTISSEMENT,En attente de confirmation RH,"Coordonnée partagée par les employés : E017, E041."
+Employes,"18, 27",E017 / E041,Telephone,+228 92 86 98 74,COORDONNEE_PARTAGEE,AVERTISSEMENT,En attente de confirmation RH,"Coordonnée partagée par les employés : E017, E041."
+Employes,21,E020,Telephone,+228 95 97 48 67,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 95 97 48 67
+Employes,32,E030,Telephone,+228 95 33 92 90,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 95 33 92 90
+Employes,33,E031,EmailPro,kwami.ahouansou@westdigital,Email professionnel incomplet,AVERTISSEMENT,En attente de confirmation RH,Adresse à vérifier : kwami.ahouansou@westdigital. Aucune correction automatique.
+Employes,33,E031,Telephone,+228 94 50 30 43,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 94 50 30 43
+Employes,34,E032,Telephone,+228 94 63 11 17,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 94 63 11 17
+Employes,37,E035,DepartementID,,ANOMALIE_METIER,AVERTISSEMENT,En attente de confirmation RH,Un employé actif doit être rattaché à un département.
+Employes,37,E035,Telephone,+228 95 17 65 13,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 95 17 65 13
+Employes,41,E039,Telephone,+229 01 89 26 33 79,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +229 01 89 26 33 79
+Employes,6,E005,Telephone,+228 94 68 28 92,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 94 68 28 92
+Employes,7,E006,Telephone,+228 95 69 64 21,Numéro de téléphone à vérifier,AVERTISSEMENT,En attente de confirmation RH,Numéro conservé sans modification : +228 95 69 64 21
+Materiel_IT,9,WD-0008,AffecteA,WD-0008 → E099,EXCLUSION_MATERIEL,ERREUR,Exclu du CSV d'import,Affectation vers un employé inexistant
+Materiel_IT,77,WD-0076,NumSerie,T3BY9L9H,EXCLUSION_MATERIEL,ERREUR,Exclu du CSV d'import,Numéro de série en doublon ; un autre exemplaire est retenu
+Materiel_IT,"14, 77",WD-0013 / WD-0076,NumSerie,T3BY9L9H,NUMERO_SERIE_DUPLIQUE,ERREUR,Exclusion selon la règle de déduplication des numéros de série,"Numéro de série partagé par plusieurs équipements : WD-0013 (Affecté, ligne 14); WD-0076 (En stock, ligne 77)."
+Materiel_IT,40,WD-0039,AffecteA,WD-0039,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement affecté devrait indiquer son détenteur.
+Materiel_IT,81,WD-0080,AffecteA,WD-0080 → E026,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement en stock ne devrait pas avoir d'affectation.
+Materiel_IT,84,WD-0083,AffecteA,WD-0083,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement affecté devrait indiquer son détenteur.
+Materiel_IT,85,WD-0084,AffecteA,WD-0084,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement affecté devrait indiquer son détenteur.
+Materiel_IT,86,WD-0085,AffecteA,WD-0085,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement affecté devrait indiquer son détenteur.
+Materiel_IT,87,WD-0086,AffecteA,WD-0086,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement affecté devrait indiquer son détenteur.
+Materiel_IT,88,WD-0087,AffecteA,WD-0087,STATUT_INCOHERENT,AVERTISSEMENT,En attente de confirmation de l'affectation,Un équipement affecté devrait indiquer son détenteur.
+Materiel_IT,9,WD-0008,AffecteA,WD-0008 → E099,AFFECTATION_SANS_CORRESPONDANCE,ERREUR,Équipement exclu du CSV d'import,L'agent affecté ne correspond à aucun employé connu ; l'équipement est exclu du CSV d'import.
+Soldes_Conges,15,E014,Solde_a_allouer,-4.0,Solde à allouer négatif,AVERTISSEMENT,En attente de confirmation RH,Report + acquis - pris est négatif : vérifier le report ou les jours pris.
+Soldes_Conges,15,E014,Solde_a_allouer,-4.0,SOLDE_NEGATIF_EXCLU_IMPORT,ERREUR,En attente d'arbitrage RH,Solde à allouer négatif : allocation exclue du CSV d'import.
+Soldes_Conges,37,E037,TypeConge,CP,STAGIAIRE_CP_INTERDIT,ERREUR,Allocation CP exclue du CSV,Employé stagiaire : pas d'acquisition de congé payé (R6).

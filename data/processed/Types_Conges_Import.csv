@@ -1,0 +1,8 @@
+﻿External ID,Name,Code
+__import__.CP,Congé payé,CP
+__import__.MAL,Congé maladie,MAL
+__import__.EXC-MAR,Congé exceptionnel – mariage du salarié,EXC-MAR
+__import__.EXC-NAI,Congé exceptionnel – naissance,EXC-NAI
+__import__.EXC-DEC,Congé exceptionnel – décès d'un proche,EXC-DEC
+__import__.SS,Congé sans solde,SS
+__import__.AA,Absence autorisée (stagiaires),AA

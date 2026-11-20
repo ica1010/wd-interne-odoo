@@ -1,0 +1,14 @@
+{
+  "TG": {
+    "code": "TG",
+    "name": "Togo",
+    "sites": ["Lomé"],
+    "hijri_years": [1448, 1449],
+    "islamic_events": [
+      {"key": "awal_moharem", "nom": "Awal Moharem", "mois": 1, "jour": 1},
+      {"key": "mawlid", "nom": "Maouloud", "mois": 3, "jour": 12},
+      {"key": "korite", "nom": "Korité", "mois": 10, "jour": 1},
+      {"key": "tabaski", "nom": "Tabaski", "mois": 12, "jour": 10}
+    ]
+  }
+}

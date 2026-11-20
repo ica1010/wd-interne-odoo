@@ -1,0 +1,14 @@
+{
+    "sources": {
+        "postes": "data/processed/Postes.csv",
+        "arrivants": "data/processed/Nouveaux_Arrivants.csv"
+    },
+    "poste_aliases": {
+        "Stagiaire Data Analyst": "Stagiaire"
+    },
+    "r8_workdays_before": 2,
+    "it_request_name": "Équipement nouvel arrivant",
+    "onboarding_plan_name": "Onboarding",
+    "user_default_groups": ["base.group_user"],
+    "professional_email_domain": "westdigital.tg"
+}

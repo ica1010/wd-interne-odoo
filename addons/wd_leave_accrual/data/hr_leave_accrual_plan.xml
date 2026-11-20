@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Plan d'accrual R1 : 2,5 jours de CP par mois. -->
+    <record id="plan_cp_25_monthly" model="hr.leave.accrual.plan">
+        <field name="name">Acquisition CP — 2,5 j/mois (R1)</field>
+        <field name="time_off_type_id" ref="__import__.CP"/>
+    </record>
+
+    <record id="level_cp_25_monthly" model="hr.leave.accrual.level">
+        <field name="accrual_plan_id" ref="plan_cp_25_monthly"/>
+        <field name="sequence">1</field>
+        <field name="start_count">1</field>
+        <field name="start_type">day</field>
+        <field name="added_value">2.5</field>
+        <field name="added_value_type">day</field>
+        <field name="frequency">monthly</field>
+    </record>
+</odoo>

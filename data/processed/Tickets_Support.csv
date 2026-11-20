@@ -1,0 +1,8 @@
+﻿TicketID,Recu_le,Client_ou_demandeur,Canal,Role,Message
+SUP-101,18/11/2026 08:05,"Restaurant Le Baobab (Full Stack, Lomé)",Téléphone,Serveuse,"« Depuis la réinitialisation de mon mot de passe hier soir, la caisse m'affiche Accès refusé. Le service du midi commence à 11h30. »"
+SUP-102,18/11/2026 08:12,"Restaurant Chez Tante Afi (Connected Business, Cotonou)",Email,Gérant,« Le rapport quotidien reçu ce matin indique un chiffre d'affaires de 0 FCFA pour hier. Nous avons pourtant fait une très bonne journée. »
+SUP-103,18/11/2026 08:20,Interne – E014,WhatsApp,Employé,"« Odoo refuse ma demande de congé du 18 au 22 janvier, il dit que mon solde est insuffisant. Je suis sûr qu'il me reste des jours. »"
+SUP-104,18/11/2026 08:31,Interne – E005 (Responsable Commercial),Oral,Manager,"« Je ne vois aucune demande de congé à valider pour mon équipe, alors que deux commerciaux m'ont dit en avoir déposé. »"
+SUP-105,18/11/2026 08:40,Interne – E004 (Responsable Support),Email,Manager,"« Marius Zinsou commence lundi 23 à Cotonou. Rien n'est prêt : ni PC, ni email, ni accès Odoo. La demande IT existe mais personne ne l'a prise. »"
+SUP-106,18/11/2026 08:52,"Restaurant Le Baobab (Full Stack, Lomé)",Email,Responsable achats,"« Le stock de poulet est sous le seuil depuis samedi et nous n'avons reçu aucune alerte de réapprovisionnement, contrairement aux semaines précédentes. »"
+SUP-107,18/11/2026 09:02,Interne – plusieurs utilisateurs,WhatsApp (groupe équipe),Plusieurs,« WD Interne affiche Internal Server Error depuis la mise à jour du module wd_it_request faite ce matin à 8h45. Personne ne peut saisir ses absences. »

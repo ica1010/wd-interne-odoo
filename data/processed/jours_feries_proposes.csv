@@ -1,0 +1,18 @@
+﻿Proposition_ID,Date,Libelle,Pays,Site,Statut_Reference,Source,Decision_Humaine,Date_Validation
+PROP-20261101-toussaint,2026-11-01,Toussaint,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20261225-noel,2026-12-25,Noël,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270101-jour-de-l-an,2027-01-01,Jour de l'an,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270113-fete-de-la-liberation-nationale,2027-01-13,Fête de la libération nationale,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270329-lundi-de-paques,2027-03-29,Lundi de Pâques,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270427-fete-de-l-independance,2027-04-27,Fête de l'Indépendance,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270501-fete-du-travail,2027-05-01,Fête du Travail,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270506-ascension,2027-05-06,Ascension,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270517-lundi-de-pentecote,2027-05-17,Lundi de Pentecôte,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270621-journee-des-martyrs,2027-06-21,Journée des martyrs,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270815-assomption,2027-08-15,Assomption,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20271101-toussaint,2027-11-01,Toussaint,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20271225-noel,2027-12-25,Noël,TG,Lomé,A_CONFIRMER,Nager.Date Community API v4,,
+PROP-20270309-korite,2027-03-09,Korité,TG,Lomé,DATE_ESTIMEE,AlAdhan API (calendrier calculé),VALIDE_IMPORT,2026-11-19
+PROP-20270516-tabaski,2027-05-16,Tabaski,TG,Lomé,DATE_ESTIMEE,AlAdhan API (calendrier calculé),VALIDE_IMPORT,2026-11-19
+PROP-20270606-awal-moharem,2027-06-06,Awal Moharem,TG,Lomé,DATE_ESTIMEE,AlAdhan API (calendrier calculé),VALIDE_IMPORT,2026-11-19
+PROP-20270814-maouloud,2027-08-14,Maouloud,TG,Lomé,DATE_ESTIMEE,AlAdhan API (calendrier calculé),VALIDE_IMPORT,2026-11-19

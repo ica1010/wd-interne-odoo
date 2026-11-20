@@ -1,0 +1,48 @@
+{
+  "TG": {
+    "sources": [
+      {
+        "id": "NAGER_V4",
+        "name": "Nager.Date Community API v4",
+        "type": "secondary_api",
+        "reliability": "moyenne",
+        "role": "reference",
+        "machine_readable": true,
+        "base_url": "https://nagerholidays.com/api/v4",
+        "available_url": "https://nagerholidays.com/api/v4/Countries/Available",
+        "holidays_url_template": "https://nagerholidays.com/api/v4/Holidays/{country_code}/{year}",
+        "note": "Source secondaire non officielle. Aucune donnée Nager.Date ne constitue une confirmation juridique."
+      },
+      {
+        "id": "ALADHAN",
+        "name": "AlAdhan API (calendrier calculé)",
+        "type": "estimated_calendar",
+        "reliability": "moyenne",
+        "role": "reference",
+        "machine_readable": true,
+        "date_url_template": "https://api.aladhan.com/v1/hToG/{hijri_date}?calendarMethod=UAQ",
+        "note": "Dates converties selon le calendrier Umm al-Qura, estimées par calcul. L'observation lunaire locale peut décaler d'un jour. Ne constitue pas une confirmation officielle."
+      },
+      {
+        "id": "JO_TG",
+        "name": "Journal officiel de la République togolaise",
+        "type": "official_legal",
+        "reliability": "haute",
+        "role": "consultation_manuel",
+        "machine_readable": false,
+        "url": "https://jo.gouv.tg/",
+        "note": "Référence juridique prioritaire. Consultation manuelle requise ; non vérifiée automatiquement."
+      },
+      {
+        "id": "AMB_TG_BRUXELLES",
+        "name": "Ambassade du Togo à Bruxelles",
+        "type": "official_calendar",
+        "reliability": "moyenne",
+        "role": "consultation_manuel",
+        "machine_readable": false,
+        "url": "https://ambatogobruxelles.be/",
+        "note": "Calendrier officiel secondaire. Consultation manuelle requise ; non vérifié automatiquement."
+      }
+    ]
+  }
+}

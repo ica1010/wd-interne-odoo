@@ -1,0 +1,7 @@
+﻿Source_ID,Nom,Type,URL,Fiabilite,Role
+FICHIER_WD,Classeur West Digital (Jours_Feries),classeur_source,,reference_metier,donnees_import
+LUNAR_LOME,Calcul astronomique local (Lomé),astronomical_calculation,,indicative,reference
+NAGER_V4,Nager.Date Community API v4,secondary_api,https://nagerholidays.com/api/v4,moyenne,reference
+ALADHAN,AlAdhan API (calendrier calculé),estimated_calendar,https://api.aladhan.com/v1/hToG/{hijri_date}?calendarMethod=UAQ,moyenne,reference
+JO_TG,Journal officiel de la République togolaise,official_legal,https://jo.gouv.tg/,haute,consultation_manuel
+AMB_TG_BRUXELLES,Ambassade du Togo à Bruxelles,official_calendar,https://ambatogobruxelles.be/,moyenne,consultation_manuel

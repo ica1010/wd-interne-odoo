@@ -1,0 +1,13 @@
+{
+  "TG": {
+    "zone_observation": {
+      "nom": "Lomé",
+      "latitude": 6.13,
+      "longitude": 1.22,
+      "fuseau": "Africa/Lome",
+      "note": "Coordonnées approximatives du centre de Lomé."
+    },
+    "observations": [],
+    "annonces_officielles": []
+  }
+}

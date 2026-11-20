@@ -1,0 +1,18 @@
+﻿Date,Libelle,date_from,date_to,Pays,Site,Source,Source_ID,Statut_Reference
+2026-11-01,Toussaint,2026-11-01 00:00:00,2026-11-01 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2026-12-25,Noël,2026-12-25 00:00:00,2026-12-25 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-01-01,Jour de l'an,2027-01-01 00:00:00,2027-01-01 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-01-13,Fête de la libération nationale,2027-01-13 00:00:00,2027-01-13 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-03-08,Korité,2027-03-08 00:00:00,2027-03-09 23:59:59,TG,Lomé,AlAdhan API (calendrier calculé) + visibilité lunaire Lomé (-1 j vs Umm al-Qura),ALADHAN;LUNAR_LOME,REFERENCE_ASTRONOMIQUE
+2027-03-29,Lundi de Pâques,2027-03-29 00:00:00,2027-03-29 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-04-27,Fête de l'Indépendance,2027-04-27 00:00:00,2027-04-27 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-05-01,Fête du Travail,2027-05-01 00:00:00,2027-05-01 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-05-06,Ascension,2027-05-06 00:00:00,2027-05-06 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-05-15,Tabaski,2027-05-15 00:00:00,2027-05-16 23:59:59,TG,Lomé,AlAdhan API (calendrier calculé) + visibilité lunaire Lomé (-1 j vs Umm al-Qura),ALADHAN;LUNAR_LOME,REFERENCE_ASTRONOMIQUE
+2027-05-17,Lundi de Pentecôte,2027-05-17 00:00:00,2027-05-17 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-06-05,Awal Moharem,2027-06-05 00:00:00,2027-06-05 23:59:59,TG,Lomé,AlAdhan API (calendrier calculé) + visibilité lunaire Lomé (-1 j vs Umm al-Qura),ALADHAN;LUNAR_LOME,REFERENCE_ASTRONOMIQUE
+2027-06-21,Journée des martyrs,2027-06-21 00:00:00,2027-06-21 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-08-14,Maouloud,2027-08-14 00:00:00,2027-08-14 23:59:59,TG,Lomé,AlAdhan API (calendrier calculé) + visibilité lunaire Lomé (+0 j vs Umm al-Qura),ALADHAN;LUNAR_LOME,REFERENCE_ASTRONOMIQUE
+2027-08-15,Assomption,2027-08-15 00:00:00,2027-08-15 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-11-01,Toussaint,2027-11-01 00:00:00,2027-11-01 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE
+2027-12-25,Noël,2027-12-25 00:00:00,2027-12-25 23:59:59,TG,Lomé,Classeur West Digital (Jours_Feries),FICHIER_WD,REFERENCE_SECONDAIRE

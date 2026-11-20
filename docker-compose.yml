@@ -1,0 +1,35 @@
+# Cas d'étude West Digital – Instance "WD Interne" (Odoo Community)
+# Démarrage : docker compose up -d   puis http://localhost:8069
+# Placez votre module wd_it_request dans le dossier ./addons
+# Pour utiliser Odoo 17 ou 19, changez simplement le tag de l'image odoo.
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  odoo:
+    image: odoo:18.0
+    depends_on:
+      - db
+    ports:
+      - "8069:8069"
+    environment:
+      HOST: db
+      USER: odoo
+      PASSWORD: odoo
+    volumes:
+      - odoo-data:/var/lib/odoo
+      - ./addons:/mnt/extra-addons
+    command: ["--dev=reload,xml"]
+    restart: unless-stopped
+
+volumes:
+  db-data:
+  odoo-data:

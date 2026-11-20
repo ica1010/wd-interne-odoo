@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="paperformat_wd_it_handover" model="report.paperformat">
+        <field name="name">WD IT - Bon de remise</field>
+        <field name="default" eval="False"/>
+        <field name="format">A4</field>
+        <field name="page_height">0</field>
+        <field name="page_width">0</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">40</field>
+        <field name="margin_bottom">25</field>
+        <field name="margin_left">8</field>
+        <field name="margin_right">8</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">35</field>
+        <field name="dpi">90</field>
+    </record>
+
+    <template id="report_wd_it_request_handover">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <div class="page">
+                    <t t-set="status_labels" t-value="{
+                        'proposed': 'Proposé',
+                        'assigned': 'Affecté',
+                        'unavailable': 'Indisponible',
+                    }"/>
+                    <t t-foreach="docs" t-as="o">
+                        <h2 class="text-center">
+                            BON DE REMISE DE MATÉRIEL
+                        </h2>
+                        <p class="text-center text-muted">
+                            Référence : <strong>
+                                <span t-field="o.request_ref"/>
+                            </strong>
+                        </p>
+                        <table class="table table-sm o_main_table">
+                            <tbody>
+                                <tr>
+                                    <td><strong>Employé</strong></td>
+                                    <td>
+                                        <span t-field="o.employee_id.name"/>
+                                        <t t-if="o.department_id">
+                                            — <span t-field="o.department_id.name"/>
+                                        </t>
+                                    </td>
+                                    <td><strong>Date de remise</strong></td>
+                                    <td>
+                                        <t t-if="o.handover_date">
+                                            <span t-field="o.handover_date"/>
+                                        </t>
+                                        <t t-else="">____________________</t>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Objet</strong></td>
+                                    <td colspan="3">
+                                        <span t-field="o.name"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Technicien</strong></td>
+                                    <td>
+                                        <t t-if="o.technician_id">
+                                            <span t-field="o.technician_id.name"/>
+                                        </t>
+                                        <t t-else="">____________________</t>
+                                    </td>
+                                    <td><strong>Lieu</strong></td>
+                                    <td>____________________</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Matériel requis</th>
+                                    <th>Équipement proposé</th>
+                                    <th>Catégorie</th>
+                                    <th>Statut</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach="o.line_ids"
+                                    t-as="line">
+                                    <td><span t-field="line.needed_label"/></td>
+                                    <td><span t-field="line.equipment_name"/></td>
+                                    <td><span t-field="line.equipment_category"/></td>
+                                    <td>
+                                        <t t-esc="status_labels.get(line.status, line.status)"/>
+                                    </td>
+                                </tr>
+                                <tr t-if="not o.line_ids">
+                                    <td colspan="4" class="text-center">
+                                        Aucune ligne matériel.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-4">
+                            Le soussigné, employé(e) de West Digital,
+                            reconnaît avoir reçu le matériel ci-dessus
+                            en bon état de fonctionnement.
+                        </p>
+                        <table class="table table-sm mt-5">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%;">
+                                        <strong>Signature de l'employé(e)</strong><br/><br/>
+                                        Nom : <span t-field="o.employee_id.name"/><br/>
+                                        Date : ____________________
+                                    </td>
+                                    <td style="width: 50%;">
+                                        <strong>Signature du technicien</strong><br/><br/>
+                                        Nom :
+                                        <t t-if="o.handover_by">
+                                            <span t-field="o.handover_by.name"/>
+                                        </t>
+                                        <t t-else="">____________________</t><br/>
+                                        Date : ____________________
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </t>
+                </div>
+            </t>
+        </t>
+    </template>
+
+    <record id="action_report_wd_it_handover" model="ir.actions.report">
+        <field name="name">Bon de remise matériel</field>
+        <field name="model">wd.it.request</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">wd_it_request.report_wd_it_request_handover</field>
+        <field name="report_file">wd_it_request.report_wd_it_request_handover</field>
+        <field name="print_report_name">
+            'Bon de remise - %s' % (object.request_ref or '')
+        </field>
+        <field name="binding_model_id" ref="model_wd_it_request"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>

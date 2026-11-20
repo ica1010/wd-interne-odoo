@@ -1,0 +1,69 @@
+﻿External ID,Employee / External ID,Time Off Type / External ID,Request Start Date,Request End Date,Status,Description,Date de dépôt d'origine,DemandeID,TypeConge,NbJoursDeclares,DateDepot,Justificatif,ValidateurManager,ValidateurRH,Statut_source
+__import__.ABS-0025,__import__.E026,__import__.CP,2026-11-03,2026-11-05,Approved,Validateur(s): E004 — DemandeID: ABS-0025,2026-10-05,ABS-0025,CP,3,2026-10-05 00:00:00,N.A.,E004,,Validée
+__import__.ABS-0030,__import__.E013,__import__.CP,2026-11-03,2026-11-03,Approved,Validateur(s): E002 — DemandeID: ABS-0030,2026-10-18,ABS-0030,CP,1,2026-10-18 00:00:00,N.A.,E002,,Validée
+__import__.ABS-0033,__import__.E040,__import__.CP,2026-11-05,2026-11-09,Approved,Validateur(s): E005 — DemandeID: ABS-0033,2026-10-11,ABS-0033,CP,3,2026-10-11 00:00:00,N.A.,E005,,Validée
+__import__.ABS-0027,__import__.E031,__import__.CP,2026-11-06,2026-11-19,Approved,Validateur(s): E005 — DemandeID: ABS-0027,2026-10-18,ABS-0027,CP,10,2026-10-18 00:00:00,N.A.,E005,,Validée
+__import__.ABS-0036,__import__.E021,__import__.MAL,2026-11-06,2026-11-12,Approved,Justificatif: Oui — Validateur(s): E006 — DemandeID: ABS-0036,2026-11-07,ABS-0036,MAL,5,2026-11-07 00:00:00,Oui,,E006,Validée
+__import__.ABS-0039,__import__.E020,__import__.CP,2026-11-09,2026-11-20,Approved,Validateur(s): E003 — DemandeID: ABS-0039,2026-10-15,ABS-0039,CP,10,2026-10-15 00:00:00,N.A.,E003,,Validée
+__import__.ABS-0062,__import__.E020,__import__.MAL,2026-11-09,2026-11-11,Approved,Justificatif: Non — Validateur(s): E006 — DemandeID: ABS-0062,2026-11-09,ABS-0062,MAL,3,2026-11-09 00:00:00,Non,,E006,Validée
+__import__.ABS-0013,__import__.E005,__import__.MAL,2026-11-13,2026-11-17,Approved,Justificatif: Oui — Validateur(s): E006 — DemandeID: ABS-0013,2026-11-14,ABS-0013,MAL,3,2026-11-14 00:00:00,Oui,,E006,Validée
+__import__.ABS-0011,__import__.E031,__import__.MAL,2026-11-17,2026-11-20,Approved,Justificatif: Oui — Validateur(s): E006 — DemandeID: ABS-0011,2026-11-19,ABS-0011,MAL,4,2026-11-19 00:00:00,Oui,,E006,Validée
+__import__.ABS-0019,__import__.E018,__import__.CP,2026-11-17,2026-11-19,Approved,Validateur(s): E003 — DemandeID: ABS-0019,2026-10-28,ABS-0019,CP,3,2026-10-28 00:00:00,N.A.,E003,,Validée
+__import__.ABS-0021,__import__.E010,__import__.CP,2026-11-17,2026-11-19,Approved,Validateur(s): E011 — DemandeID: ABS-0021,2026-10-27,ABS-0021,CP,3,2026-10-27 00:00:00,N.A.,E011,,Validée
+__import__.ABS-0051,__import__.E023,__import__.CP,2026-11-23,2026-11-24,To Approve,DemandeID: ABS-0051,2026-10-20,ABS-0051,CP,2,2026-10-20 00:00:00,N.A.,,,Soumise
+__import__.ABS-0057,__import__.E022,__import__.CP,2026-11-23,2026-11-27,To Approve,DemandeID: ABS-0057,2026-11-05,ABS-0057,CP,5,2026-11-05 00:00:00,N.A.,,,Soumise
+__import__.ABS-0065,__import__.E032,__import__.CP,2026-11-23,2026-11-30,To Approve,DemandeID: ABS-0065,2026-11-18,ABS-0065,CP,6,2026-11-18 00:00:00,N.A.,,,Soumise
+__import__.ABS-0050,__import__.E018,__import__.MAL,2026-11-24,2026-11-24,,Justificatif: Oui — DemandeID: ABS-0050,2026-11-25,ABS-0050,MAL,1,2026-11-25 00:00:00,Oui,,,Brouillon
+__import__.ABS-0004,__import__.E009,__import__.EXC-NAI,2026-11-26,2026-11-30,To Approve,Justificatif: Oui — DemandeID: ABS-0004,2026-11-28,ABS-0004,EXC-NAI,3,2026-11-28 00:00:00,Oui,,,Soumise
+__import__.ABS-0058,__import__.E028,__import__.CP,2026-11-27,2026-12-10,To Approve,DemandeID: ABS-0058,2026-10-20,ABS-0058,CP,10,2026-10-20 00:00:00,N.A.,,,Soumise
+__import__.ABS-0031,__import__.E015,__import__.SS,2026-11-30,2026-12-03,To Approve,DemandeID: ABS-0031,2026-10-28,ABS-0031,SS,4,2026-10-28 00:00:00,N.A.,,,Soumise
+__import__.ABS-0044,__import__.E007,__import__.MAL,2026-11-30,2026-11-30,To Approve,Justificatif: Oui — DemandeID: ABS-0044,2026-12-01,ABS-0044,MAL,1,2026-12-01 00:00:00,Oui,,,Soumise
+__import__.ABS-0066,__import__.E039,__import__.CP,2026-12-07,2026-12-11,Approved,Validateur(s): E004 — DemandeID: ABS-0066,2026-09-15,ABS-0066,CP,5,2026-09-15 00:00:00,N.A.,E004,,Validée
+__import__.ABS-0003,__import__.E011,__import__.MAL,2026-12-09,2026-12-14,Approved,Justificatif: Oui — Validateur(s): E006 — DemandeID: ABS-0003,2026-12-10,ABS-0003,MAL,4,2026-12-10 00:00:00,Oui,,E006,Validée
+__import__.ABS-0008,__import__.E024,__import__.CP,2026-12-10,2026-12-11,To Approve,DemandeID: ABS-0008,2026-11-11,ABS-0008,CP,2,2026-11-11 00:00:00,N.A.,,,Soumise
+__import__.ABS-0010,__import__.E025,__import__.CP,2026-12-10,2026-12-21,Approved,Validateur(s): E004 — DemandeID: ABS-0010,2026-11-25,ABS-0010,CP,8,2026-11-25 00:00:00,N.A.,E004,,Validée
+__import__.ABS-0053,__import__.E035,__import__.SS,2026-12-10,2026-12-10,Approved,"Validateur(s): E006, E006 — DemandeID: ABS-0053",2026-11-12,ABS-0053,SS,1,2026-11-12 00:00:00,N.A.,E006,E006,Validée
+__import__.ABS-0069,__import__.E030,__import__.CP,2026-12-10,2026-12-08,,DemandeID: ABS-0069,2026-11-17,ABS-0069,CP,3,2026-11-17 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0009,__import__.E016,__import__.CP,2026-12-14,2026-12-18,To Approve,DemandeID: ABS-0009,2026-11-29,ABS-0009,CP,5,2026-11-29 00:00:00,N.A.,,,Soumise
+__import__.ABS-0059,__import__.E008,__import__.CP,2026-12-14,2026-12-18,To Approve,DemandeID: ABS-0059,2026-11-20,ABS-0059,CP,5,2026-11-20 00:00:00,N.A.,,,Soumise
+__import__.ABS-0005,__import__.E031,__import__.SS,2026-12-17,2026-12-22,,DemandeID: ABS-0005,2026-11-30,ABS-0005,SS,4,2026-11-30 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0024,__import__.E034,__import__.CP,2026-12-17,2026-12-29,To Approve,DemandeID: ABS-0024,2026-11-25,ABS-0024,CP,8,2026-11-25 00:00:00,N.A.,,,Soumise
+__import__.ABS-0060,__import__.E008,__import__.CP,2026-12-17,2026-12-23,To Approve,Prolongation fêtes — DemandeID: ABS-0060,2026-11-25,ABS-0060,CP,5,2026-11-25 00:00:00,N.A.,,,Soumise
+__import__.ABS-0037,__import__.E002,__import__.CP,2026-12-18,2026-12-22,Refused,Validateur(s): E001 — DemandeID: ABS-0037,2026-11-10,ABS-0037,CP,3,2026-11-10 00:00:00,N.A.,E001,,Refusée
+__import__.ABS-0042,__import__.E021,__import__.CP,2026-12-18,2026-12-21,,DemandeID: ABS-0042,2026-12-04,ABS-0042,CP,2,2026-12-04 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0064,__import__.E025,__import__.CP,2026-12-21,2026-12-25,To Approve,DemandeID: ABS-0064,2026-11-30,ABS-0064,CP,5,2026-11-30 00:00:00,N.A.,,,Soumise
+__import__.ABS-0052,__import__.E012,__import__.CP,2026-12-24,2027-01-06,Refused,Validateur(s): E002 — DemandeID: ABS-0052,2026-11-23,ABS-0052,CP,8,2026-11-23 00:00:00,N.A.,E002,,Refusée
+__import__.ABS-0014,__import__.E015,__import__.CP,2026-12-28,2027-01-04,Approved,Validateur(s): E002 — DemandeID: ABS-0014,2026-11-29,ABS-0014,CP,5,2026-11-29 00:00:00,N.A.,E002,,Validée
+__import__.ABS-0032,__import__.E020,__import__.CP,2026-12-28,2027-01-07,,DemandeID: ABS-0032,2026-11-30,ABS-0032,CP,8,2026-11-30 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0012,__import__.E023,__import__.CP,2026-12-30,2027-01-06,To Approve,DemandeID: ABS-0012,2026-12-07,ABS-0012,CP,5,2026-12-07 00:00:00,N.A.,,,Soumise
+__import__.ABS-0016,__import__.E021,__import__.CP,2026-12-31,2027-01-04,Approved,Validateur(s): E004 — DemandeID: ABS-0016,2026-11-22,ABS-0016,CP,2,2026-11-22 00:00:00,N.A.,E004,,Validée
+__import__.ABS-0068,__import__.E021,__import__.EXC-MAR,2027-01-04,2027-01-12,To Approve,Justificatif: Oui — DemandeID: ABS-0068,2026-11-12,ABS-0068,EXC-MAR,7,2026-11-12 00:00:00,Oui,,,Soumise
+__import__.ABS-0034,__import__.E012,__import__.CP,2027-01-06,2027-01-07,Approved,Validateur(s): E002 — DemandeID: ABS-0034,2026-12-10,ABS-0034,CP,2,2026-12-10 00:00:00,N.A.,E002,,Validée
+__import__.ABS-0038,__import__.E013,__import__.CP,2027-01-06,2027-01-20,Refused,Validateur(s): E002 — DemandeID: ABS-0038,2026-12-02,ABS-0038,CP,10,2026-12-02 00:00:00,N.A.,E002,,Refusée
+__import__.ABS-0055,__import__.E021,__import__.CP,2027-01-06,2027-01-06,To Approve,DemandeID: ABS-0055,2026-12-10,ABS-0055,CP,1,2026-12-10 00:00:00,N.A.,,,Soumise
+__import__.ABS-0041,__import__.E006,__import__.MAL,2027-01-07,2027-01-12,Refused,Justificatif: Oui — DemandeID: ABS-0041,2027-01-08,ABS-0041,MAL,4,2027-01-08 00:00:00,Oui,,,Refusée
+__import__.ABS-0043,__import__.E012,__import__.CP,2027-01-08,2027-01-15,Refused,Validateur(s): E002 — DemandeID: ABS-0043,2026-11-30,ABS-0043,CP,5,2026-11-30 00:00:00,N.A.,E002,,Refusée
+__import__.ABS-0045,__import__.E014,__import__.CP,2027-01-08,2027-01-11,To Approve,DemandeID: ABS-0045,2026-12-11,ABS-0045,CP,2,2026-12-11 00:00:00,N.A.,,,Soumise
+__import__.ABS-0006,__import__.E002,__import__.CP,2027-01-11,2027-01-12,To Approve,DemandeID: ABS-0006,2026-12-25,ABS-0006,CP,2,2026-12-25 00:00:00,N.A.,,,Soumise
+__import__.ABS-0022,__import__.E026,__import__.CP,2027-01-11,2027-01-21,Refused,Validateur(s): E004 — DemandeID: ABS-0022,2026-12-20,ABS-0022,CP,8,2026-12-20 00:00:00,N.A.,E004,,Refusée
+__import__.ABS-0017,__import__.E023,__import__.CP,2027-01-18,2027-01-22,To Approve,DemandeID: ABS-0017,2026-12-31,ABS-0017,CP,5,2026-12-31 00:00:00,N.A.,,,Soumise
+__import__.ABS-0035,__import__.E022,__import__.CP,2027-01-18,2027-01-22,Refused,Validateur(s): E004 — DemandeID: ABS-0035,2026-12-29,ABS-0035,CP,5,2026-12-29 00:00:00,N.A.,E004,,Refusée
+__import__.ABS-0048,__import__.E035,__import__.CP,2027-01-18,2027-01-22,To Approve,DemandeID: ABS-0048,2026-12-15,ABS-0048,CP,5,2026-12-15 00:00:00,N.A.,,,Soumise
+__import__.ABS-0056,__import__.E004,__import__.CP,2027-01-18,2027-01-29,Approved,Validateur(s): E001 — DemandeID: ABS-0056,2026-12-15,ABS-0056,CP,10,2026-12-15 00:00:00,N.A.,E001,,Validée
+__import__.ABS-0061,__import__.E014,__import__.CP,2027-01-18,2027-01-22,To Approve,DemandeID: ABS-0061,2026-11-16,ABS-0061,CP,5,2026-11-16 00:00:00,N.A.,,,Soumise
+__import__.ABS-0020,__import__.E017,__import__.CP,2027-01-21,2027-01-25,Approved,Validateur(s): E003 — DemandeID: ABS-0020,2027-01-02,ABS-0020,CP,3,2027-01-02 00:00:00,N.A.,E003,,Validée
+__import__.ABS-0029,__import__.E033,__import__.CP,2027-01-21,2027-01-25,,DemandeID: ABS-0029,2027-01-07,ABS-0029,CP,3,2027-01-07 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0018,__import__.E029,__import__.CP,2027-01-25,2027-02-03,Refused,Validateur(s): E005 — DemandeID: ABS-0018,2027-01-09,ABS-0018,CP,8,2027-01-09 00:00:00,N.A.,E005,,Refusée
+__import__.ABS-0026,__import__.E009,__import__.CP,2027-01-25,2027-01-29,Refused,Validateur(s): E002 — DemandeID: ABS-0026,2026-12-31,ABS-0026,CP,5,2026-12-31 00:00:00,N.A.,E002,,Refusée
+__import__.ABS-0047,__import__.E021,__import__.CP,2027-01-25,2027-01-29,,DemandeID: ABS-0047,2026-12-27,ABS-0047,CP,5,2026-12-27 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0049,__import__.E010,__import__.CP,2027-01-25,2027-01-29,To Approve,DemandeID: ABS-0049,2027-01-12,ABS-0049,CP,5,2027-01-12 00:00:00,N.A.,,,Soumise
+__import__.ABS-0054,__import__.E035,__import__.CP,2027-01-28,2027-02-08,To Approve,DemandeID: ABS-0054,2027-01-03,ABS-0054,CP,8,2027-01-03 00:00:00,N.A.,,,Soumise
+__import__.ABS-0007,__import__.E008,__import__.CP,2027-02-01,2027-02-10,To Approve,DemandeID: ABS-0007,2026-12-27,ABS-0007,CP,8,2026-12-27 00:00:00,N.A.,,,Soumise
+__import__.ABS-0046,__import__.E018,__import__.MAL,2027-02-01,2027-02-03,,Justificatif: Oui — DemandeID: ABS-0046,2027-02-01,ABS-0046,MAL,3,2027-02-01 00:00:00,Oui,,,Brouillon
+__import__.ABS-0067,__import__.E013,__import__.CP,2027-02-01,2027-02-19,Approved,Validateur(s): E002 — DemandeID: ABS-0067,2026-11-10,ABS-0067,CP,15,2026-11-10 00:00:00,N.A.,E002,,Validée
+__import__.ABS-0015,__import__.E021,__import__.MAL,2027-02-02,2027-02-08,Refused,Justificatif: Oui — DemandeID: ABS-0015,2027-02-03,ABS-0015,MAL,5,2027-02-03 00:00:00,Oui,,,Refusée
+__import__.ABS-0001,__import__.E007,__import__.CP,2027-02-03,2027-02-09,,DemandeID: ABS-0001,2027-01-12,ABS-0001,CP,5,2027-01-12 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0002,__import__.E017,__import__.CP,2027-02-04,2027-02-10,To Approve,DemandeID: ABS-0002,2027-01-02,ABS-0002,CP,5,2027-01-02 00:00:00,N.A.,,,Soumise
+__import__.ABS-0023,__import__.E022,__import__.CP,2027-02-08,2027-02-12,,DemandeID: ABS-0023,2027-01-06,ABS-0023,CP,5,2027-01-06 00:00:00,N.A.,,,Brouillon
+__import__.ABS-0040,__import__.E033,__import__.CP,2027-02-08,2027-02-19,Refused,Validateur(s): E006 — DemandeID: ABS-0040,2027-01-18,ABS-0040,CP,10,2027-01-18 00:00:00,N.A.,E006,,Refusée
+__import__.ABS-0028,__import__.E018,__import__.CP,2027-02-09,2027-02-10,Refused,Validateur(s): E003 — DemandeID: ABS-0028,2027-01-03,ABS-0028,CP,2,2027-01-03 00:00:00,N.A.,E003,,Refusée

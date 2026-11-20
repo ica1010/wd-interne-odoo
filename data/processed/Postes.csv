@@ -1,0 +1,15 @@
+﻿PosteID,Intitule,DepartementID,ProfilMateriel
+J01,Directeur Général,D01,Standard
+J02,Chef de projet IT,D02,Standard
+J03,Consultant Odoo,D02,Dev
+J04,Développeur Odoo,D02,Dev
+J05,Data & BI Specialist,D03,Dev
+J06,Integration / Automation Specialist,D03,Dev
+J07,Technicien Support IT,D04,Support
+J08,Responsable Support,D04,Support
+J09,Account Manager,D05,Commercial
+J10,Commercial terrain,D05,Commercial
+J11,Responsable RH,D06,Standard
+J12,Comptable,D06,Standard
+J13,Assistant(e) administratif(ve),D06,Standard
+J14,Stagiaire,*,Standard
